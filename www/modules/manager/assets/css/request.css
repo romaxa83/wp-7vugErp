@@ -1,0 +1,30 @@
+.list-find {
+    display: none;
+    width: calc(100% - 30px);
+    position: relative;
+}
+.product-request-amount {
+    padding: 6px;
+}
+.content {
+    padding: 8px 15px 8px 15px;
+}
+.table-request h3 {
+    padding: 0px;
+    margin: 0px;
+}
+#product_filter{
+	margin-top: 10px;
+}
+.product-request-amount-default{
+    width: auto;
+}
+#add_product_request{
+    width: 100%;
+}
+.adjustment-product-form{
+    display: none;
+}
+.clear-request {
+    cursor: pointer;
+}

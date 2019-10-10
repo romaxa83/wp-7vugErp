@@ -1,0 +1,14 @@
+mariadb/
+backups/
+
+vendor/
+.idea
+Makefile
+
+.env
+traefik.toml
+
+logs/*
+!logs/.gitkeep
+
+nbproject

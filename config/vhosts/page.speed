@@ -1,0 +1,13 @@
+# Pagespeed main settings
+ModPagespeed on
+
+ModPagespeedInheritVHostConfig on
+AddOutputFilterByType MOD_PAGESPEED_OUTPUT_FILTER text/html
+ModPagespeedFileCacheInodeLimit        500000
+
+ModPagespeedMapOriginDomain localhost https://{ORIGIN}
+
+#ModPagespeedMapOriginDomain "http://localhost" "https://{ORIGIN}"
+#ModPagespeedLoadFromFile "https://{ORIGIN}" "/var/www/html/"
+
+ModPagespeedRespectXForwardedProto on
