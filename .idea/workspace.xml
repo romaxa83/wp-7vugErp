@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeb1cb5a-7ba2-41c0-a7dc-ef2b62ce7710" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/params.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/config/mysql/Dockerfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/config/php/php.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/config/webserver/Dockerfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/docker/config/webserver/vhost/default.conf" />
+      <change beforePath="$PROJECT_DIR$/.env.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/acme.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/php/php.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/vhosts/default.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/vhosts/geoip.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/vhosts/page.speed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/logs/.gitkeep" afterPath="$PROJECT_DIR$/docker/config/php/Dockerfile" />
+      <change beforePath="$PROJECT_DIR$/migrate.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/prod.docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/traefik.toml.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/.bowerrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/.vscode/launch.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/assets/AppAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/behaviors/ManagerNotAccess.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/bootstrap/SetUp.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/codeception.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/console.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/db-test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/db.php.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/params.dist.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/test-console.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/test-db.php.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/test-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/config/web.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/controllers/CronController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/controllers/SeedController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/controllers/SyncronizationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/controllers/XmlController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/BaseSyncModel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/Curl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/Product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/RequestManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/RequestProductManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/Transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/console/models/TransactionProduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/AccessController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/AgentController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/BaseController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/CategoryController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/CharacteristicController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/CharacteristicValueController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/ChartController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/LiveEditController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/LocalStoregController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/OperationAdjustmentController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/OperationComingController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/OperationConsumptionController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/OperationController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/OperationMassConsumptionController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/ProductController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/RoleController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/SiteController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/TraficProductController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/TransferDataController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/UserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/VariantProductController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/api/CategoryController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/api/IndexController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/api/OrderController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/controllers/api/ProductController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/config/console-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/config/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/config/params-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/config/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/config/web-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/web/index-test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/web/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/dev/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/config/console-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/config/db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/config/params-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/config/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/config/web-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/web/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/environments/prod/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/function.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/init" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/init.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/mail/layouts/html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m140506_102106_rbac_init.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170922_215652_create_user_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170923_215651_create_base_permission_to_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_064740_create_agent_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_064744_create_base_value_to_agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_101813_create_category_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_101909_create_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_102512_create_characteristic_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_102521_create_characteristic_value_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m170929_102559_create_prod_char_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m171005_081549_create_variant_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m171009_055225_create_cat_char_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m171108_151839_create_settings_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m171108_153011_create_operations_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m171221_143258_changed_status_in_all_tables.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180115_071608_add_column_change_price_in_tables.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180124_111930_default_settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180214_072526_add_columns_in_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180228_123455_add_column_in_operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180307_090308_change_type_for_field_transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180319_072116_create_oper_archive_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180326_123251_change_total_usd_ua_in_operations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180326_123811_change_in_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180327_080631_change_operations_total_usd_ua_to_mediumint.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180327_082456_change_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180327_082457_create_access.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180503_073858_add_in_operations_column.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180504_090705_drop_operation_id_in_operations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180504_092746_create_temp_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180508_123504_add_amount_field_in_temp_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180508_123505_create_activity_log.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180508_123506_add_agents_field_in_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180518_080108_create_v_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180521_084630_change_date_create_v_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180530_093816_add_in_product_new_column.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180531_125205_convert_date_and_date_update_in_operations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180604_061745_create_product_request_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180607_125710_added_column_product_request_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180609_093906_add_date_adjustment_in_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180612_074531_convert_date_in_archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180619_100216_add_index_and_fk_to_vproduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180622_105132_add_vendore_code_in_v_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180625_065405_added_change_price_to_vproduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180625_114112_input_status_in_agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180627_154136_change_status_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180718_083501_add_status_for_shop__in_product_and_category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180802_100243_alter_column_total_ua_and_total_usd_to_double.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180804_112552_alter_activiti_log_data_to_MEDIUMTEXT.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180828_091814_add_publish_status_column_to_v_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180829_065340_alert_column_vendor_code_to_bigint.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180904_072021_alter_prod_value_product_request_to_long_text.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180904_072022_create_order_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180904_072023_create_order_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180905_075446_create_oper_coming_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180905_080402_create_oper_consumption_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180905_081011_create_oper_adjustment_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180907_095625_create_archive_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180907_103212_create_archive_value_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m180924_075704_drop_satus_in_characteristic.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181003_082155_change_price_from_float_to_decimal.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181009_083508_create_table_connect_many_to_many_product_with_agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181030_122427_rename_column_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181119_085218_create_request_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181119_090644_create_request_product_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m181120_094438_add_total_price_archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m190607_084505_add_permission_rbac.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m190611_111035_convert_total_price_opretations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/migrations/m191003_123324_added_to_user_field_old_auth_key.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Access.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/AccessSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/ArchiveValue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/AuthAssignment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/AuthItem.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/AuthItemChild.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/AuthRule.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/CatChar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Characteristic.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/CharacteristicValue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/CsvForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Curl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/LoginForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/OperAdjustment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/OperComing.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/OperConsumption.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Operations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/OperationsSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/ProductAgent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/ProductSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/Settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/TraficProductSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/TraficSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/models/VProduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/ActiveRecordBehavior.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/DbStorage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/LogCollection.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/LogMessage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/Manager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/ManagerTrait.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/MessageEvent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/Module.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/StorageInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/controllers/DefaultController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/messages/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/messages/ru/lav45/logger.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/models/ActivityLog.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/models/ActivityLogSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/models/ActivityLogViewModel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/models/DataModel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/service/LogService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/views/default/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/views/default/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/views/default/view_archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/views/default/view_day.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/logger/views/default/view_month.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/Manager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/ManagerAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/assets/css/manager.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/assets/css/request.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/assets/js/admin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/assets/js/manager.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/assets/js/request.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/controllers/AdminController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/controllers/ManagerController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/controllers/RequestController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/models/Request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/models/RequestProduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/models/RequestSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/services/RequestService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/services/TransactionService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/admin/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/admin/show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/_form-add-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/_form-adjustment-amount.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/_table-product-request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/manager/views/manager/table-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/Order.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/OrderAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/assets/css/order.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/assets/js/order.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/controllers/OrderController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/models/Order.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/models/OrderProduct.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/models/OrderProductSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/models/OrderSearch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/views/order/form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/views/order/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/order/views/order/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/Xml.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/XmlAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/assets/css/xml.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/assets/js/xml.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/controllers/XmlMarketController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/service/XmlMarketService.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/modules/xml/type/ShopInfo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/prod_base.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/repositories/CategoryRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/repositories/ProductRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/requirements.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/service/BazaApi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/cat-char.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/characteristic-value.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/characteristic.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/many-coming-operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/many-consumption-operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/many-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/request-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_data/store.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_output/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_support/AcceptanceTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_support/FunctionalTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/_support/UnitTester.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/acceptance/AboutCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/acceptance/ContactCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/acceptance/HomeCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/acceptance/LoginCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/acceptance/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/bin/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/codeception.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/AgentFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/CatCharFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/CategoryFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/CharacteristicFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/CharacteristicValueFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/ManyComingOperationFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/ManyConsumptionOperationFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/ManyProductFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/OperationFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/ProductFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/RequestFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/RequestProductFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/fixtures/StoreFixture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional.suite.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional/ProductCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional/ShopCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional/UserCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/functional/manager/ManagerCest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/helper/transaction/Transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/helper/transaction/TransactionCalculate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit.suite.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/CategoryTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/CharacteristicTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/CharacteristicValueTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/ProductTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/_bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/module/manager/RequestProductTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/module/manager/RequestTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/ComingDeleteTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/ComingTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/ConsumptionDeleteTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/ConsumptionTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/LiveEditComingTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/tests/unit/transaction/LiveEditConsumptionTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/access/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/access/access.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/access/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/account/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/account/permission.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/account/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/agent/_form-agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/agent/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/agent/provider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/agent/store.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/agent/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/category/_form-category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/category/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/category/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/category/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/characteristic-value/templateCreate.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/characteristic-value/templateReady.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/characteristic/_form-characteristic.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/characteristic/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/chart/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/content.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/left.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/main-login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/layouts/old_main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-adjustment/adjustment.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/_form-add-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/_form-where-whence.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/_variant_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/pdf-table-default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/pdf-table-start_price.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/pdf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/table-body.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-coming/table-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/_form-add-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/_form-where-whence.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/_variant_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/pdf-table-default.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/pdf-table-price.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/pdf-table-trade_price.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/pdf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/table-body.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-consumption/table-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/_form-add-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/first-step-variant.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/first-step.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation-mass-consumption/table-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/all-transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/archive.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/coming.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/consumption.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/lost-transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/operation/table-transaction.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/pdf/pdf-table-cost_price.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/_form-product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/_form-upload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/_product-table-admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/_product-table-manager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/print_pdf_change_price.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/print_pdf_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/product/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/role/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/site/error.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/site/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/site/settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/trafic-product/_form_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/trafic-product/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/trafic-product/product-table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/user/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/user/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/user/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/variant-product/table-variant.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/views/variant-product/variant_product.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/assets/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/AdminLTE.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap-theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap-theme.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/font-awesome.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/select2.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/site.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/skins/_all-skins.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/docs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/008-menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/008-menu_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/administrirovanie.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/administrirovanie_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrow_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrows_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrows_left_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrows_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/arrows_right_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/check.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/delete.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/delete_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/document.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/document_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/dokumenti.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/dokumenti_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/exit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/exit_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/kabinet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/kabinet_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/minus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/minus_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/more.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/more_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/nastroiki.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/nastroiki_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/otcheti.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/otcheti_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/plus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/plus_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/print.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/print_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/redaktirovat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/redaktirovat_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/save.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/save_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/search_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/spravochnik.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/img/icons/spravochnik_active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/index-test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/app.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/code.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/LocalStoreg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/SubElementSelect2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/access-controle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/agent.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/archive-log.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/category.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/characteristic.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/chart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation-adjustment.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation-archive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation-coming.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation-consumption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation-mass-consumption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/operation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/product.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/transferData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/module/variant-product.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/select2.full.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/js/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/web/uploads/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/widget/Alert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/yii" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/yii.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/yii_test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/yiierp.sublime-project" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/www/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="m181119_085218_create_request_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m181119_085218_create_request_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="72">
+                <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m181119_090644_create_request_product_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m181119_090644_create_request_product_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m181120_094438_add_total_price_archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m181120_094438_add_total_price_archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m190607_084505_add_permission_rbac.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m190607_084505_add_permission_rbac.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m190611_111035_convert_total_price_opretations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m190611_111035_convert_total_price_opretations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m191003_123324_added_to_user_field_old_auth_key.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/migrations/m191003_123324_added_to_user_field_old_auth_key.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>network</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docker/config/webserver/vhost/default.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/app/migrations/m180804_112552_alter_activiti_log_data_to_MEDIUMTEXT.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_064740_create_agent_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_101813_create_category_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_101909_create_product_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_102512_create_characteristic_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_102521_create_characteristic_value_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m170929_102559_create_prod_char_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m171005_081549_create_variant_product_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m171009_055225_create_cat_char_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m171108_151839_create_settings_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m171108_153011_create_operations_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m171221_143258_changed_status_in_all_tables.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180115_071608_add_column_change_price_in_tables.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180214_072526_add_columns_in_product_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180228_123455_add_column_in_operation.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180307_090308_change_type_for_field_transaction.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180319_072116_create_oper_archive_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180327_080631_change_operations_total_usd_ua_to_mediumint.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180327_082456_change_product.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180327_082457_create_access.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180503_073858_add_in_operations_column.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180504_090705_drop_operation_id_in_operations.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180504_092746_create_temp_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180508_123504_add_amount_field_in_temp_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180508_123506_add_agents_field_in_product_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180521_084630_change_date_create_v_product.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180530_093816_add_in_product_new_column.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180604_061745_create_product_request_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180607_125710_added_column_product_request_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180609_093906_add_date_adjustment_in_product.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180612_074531_convert_date_in_archive.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180622_105132_add_vendore_code_in_v_product.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180625_065405_added_change_price_to_vproduct.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180625_114112_input_status_in_agent.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180718_083501_add_status_for_shop__in_product_and_category.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180904_072021_alter_prod_value_product_request_to_long_text.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180904_072022_create_order_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180904_072023_create_order_product_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180905_075446_create_oper_coming_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180905_080402_create_oper_consumption_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180905_081011_create_oper_adjustment_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180907_095625_create_archive_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m180907_103212_create_archive_value_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m181009_083508_create_table_connect_many_to_many_product_with_agent.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m181119_085218_create_request_table.php" />
+        <option value="$PROJECT_DIR$/app/migrations/m181119_090644_create_request_product_table.php" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="131" />
+    <option name="y" value="121" />
+    <option name="width" value="1376" />
+    <option name="height" value="779" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yiierp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yiierp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yiierp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yiierp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="yiierp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yiierp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/config" />
+      <recent name="$PROJECT_DIR$/docker/config/apache2/vhost" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb1cb5a-7ba2-41c0-a7dc-ef2b62ce7710" name="Default" comment="" />
+      <created>1572979127080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572979127080</updated>
+      <workItem from="1572979129538" duration="3460000" />
+      <workItem from="1573064819600" duration="7337000" />
+      <workItem from="1573151619654" duration="8058000" />
+      <workItem from="1573390222521" duration="3136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21991000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="131" y="121" width="1376" height="779" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16616541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180326_123251_change_total_usd_ua_in_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180326_123811_change_in_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180327_080631_change_operations_total_usd_ua_to_mediumint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180327_082456_change_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180327_082457_create_access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180503_073858_add_in_operations_column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180504_090705_drop_operation_id_in_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180504_092746_create_temp_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180508_123504_add_amount_field_in_temp_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180508_123505_create_activity_log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180508_123506_add_agents_field_in_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180518_080108_create_v_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180521_084630_change_date_create_v_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180530_093816_add_in_product_new_column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180531_125205_convert_date_and_date_update_in_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1570726132683" expanded="true" signature="299:373" ph="UPDATE `operations`... " />
+            <marker date="1570726132683" expanded="true" signature="427:482" ph="ALTER TABLE `operations`... " />
+            <marker date="1570726132683" expanded="true" signature="536:624" ph="UPDATE `operations`... " />
+            <marker date="1570726132683" expanded="true" signature="678:740" ph="ALTER TABLE `operations`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180604_061745_create_product_request_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180607_125710_added_column_product_request_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180609_093906_add_date_adjustment_in_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180612_074531_convert_date_in_archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1573392911896" expanded="true" signature="261:359" ph="UPDATE `oper_archive`... " />
+            <marker date="1573392911896" expanded="true" signature="414:471" ph="ALTER TABLE `oper_archive`... " />
+            <marker date="1573392911896" expanded="true" signature="525:647" ph="UPDATE `oper_archive`... " />
+            <marker date="1573392911896" expanded="true" signature="702:767" ph="ALTER TABLE `oper_archive`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180619_100216_add_index_and_fk_to_vproduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180622_105132_add_vendore_code_in_v_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180625_065405_added_change_price_to_vproduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180625_114112_input_status_in_agent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1573392911364" expanded="true" signature="257:290" ph="UPDATE `agent`... " />
+            <marker date="1573392911364" expanded="true" signature="427:463" ph="UPDATE `category`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180627_154136_change_status_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1570726132683" expanded="true" signature="257:292" ph="UPDATE `product`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180718_083501_add_status_for_shop__in_product_and_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180802_100243_alter_column_total_ua_and_total_usd_to_double.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180804_112552_alter_activiti_log_data_to_MEDIUMTEXT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1573392154983" expanded="true" signature="433:480" ph="ALTER TABLE activity_log... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180828_091814_add_publish_status_column_to_v_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180829_065340_alert_column_vendor_code_to_bigint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180904_072021_alter_prod_value_product_request_to_long_text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180904_072022_create_order_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180904_072023_create_order_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180905_075446_create_oper_coming_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180905_080402_create_oper_consumption_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180905_081011_create_oper_adjustment_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180907_095625_create_archive_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180907_103212_create_archive_value_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m180924_075704_drop_satus_in_characteristic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181003_082155_change_price_from_float_to_decimal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181009_083508_create_table_connect_many_to_many_product_with_agent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181030_122427_rename_column_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181119_085218_create_request_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181119_090644_create_request_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m181120_094438_add_total_price_archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m190607_084505_add_permission_rbac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m190611_111035_convert_total_price_opretations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/m191003_123324_added_to_user_field_old_auth_key.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

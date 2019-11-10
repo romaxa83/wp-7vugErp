@@ -1,136 +1,48 @@
 version: '3'
+
 services:
-#  proxy:
-#    image: traefik:latest
-#    restart: 'always'
-#    command: --web --docker --docker.domain=docker.localhost --logLevel=DEBUG --accesslogsfile=/dev/stdout
-#    ports:
-#      - '${HOST_MACHINE_UNSECURE_HOST_PORT}:80'
-#      - '${HOST_MACHINE_SECURE_HOST_PORT}:443'
-#    volumes:
-#      - /var/run/docker.sock:/var/run/docker.sock
-#      - ./traefik.toml:/etc/traefik/traefik.toml
-#      - ./acme.json:/acme.json
-#    networks:
-#      - frontend
-#      - backend
-#    labels:
-#      - 'traefik.backend=proxy'
-#      - 'traefik.frontend.rule=Host:${DOMAIN};PathPrefixStrip:/traefik/'
-#      - 'traefik.docker.network=frontend'
-#      - 'traefik.port=8080'
-#      - "traefik.frontend.headers.SSLRedirect=true"
-#      - "traefik.frontend.headers.STSSeconds=315360000"
-#      - "traefik.frontend.headers.browserXSSFilter=true"
-#      - "traefik.frontend.headers.contentTypeNosniff=true"
-#      - "traefik.frontend.headers.forceSTSHeader=true"
-#      - "traefik.frontend.headers.SSLHost=${DOMAIN}"
-#      - "traefik.frontend.headers.STSIncludeSubdomains=true"
-#      - "traefik.frontend.headers.STSPreload=true"
-#      - "traefik.frontend.headers.frameDeny=true"
-  php:
-    image: hub.t-me.pp.ua/wi1w/webserver:for-bonum
-    restart: 'always'
-    command: bash -c 'cp /page.speed /etc/apache2/page.speed && sed -i -- "s~{ORIGIN}~${DOMAIN}~g" /etc/apache2/page.speed && chown -R 500:500 /var/www/html/ && . /etc/apache2/envvars; /usr/sbin/apache2 -DFOREGROUND'
-    volumes:
-      - ./config/vhosts/page.speed:/page.speed
-      - ./config/vhosts/default.conf:/etc/apache2/sites-enabled/000-default.conf
-      - ./config/vhosts/geoip.conf:/etc/apache2/mods-available/geoip.conf
-      - ./www:/var/www/html
-      - ./config/php/php.ini:/usr/local/etc/php/php.ini
-      - ./logs/apache2:/var/log/apache2
-    links:
-      - mariadb
-    depends_on:
-      - mariadb
-      - migration
-    networks:
-      - frontend
-      - backend
-    labels:
-      - 'traefik.backend=${DOMAIN}'
-      - 'traefik.frontend.rule=Host:${DOMAIN},www.${DOMAIN}'
-      - 'traefik.docker.network=frontend'
-      - 'traefik.port=80'
-#      - 'traefik.frontend.redirect.permanent=true'
-#      - "traefik.frontend.redirect.regex=^https://www.${DOMAIN}/(.*)$$"
-#      - "traefik.frontend.redirect.replacement=https://${DOMAIN}/$$1"
-  migration:
-    image: hub.t-me.pp.ua/wi1w/webserver:for-bonum
-    restart: on-failure
-    command: bash -c 'chmod +x /var/www/html/migrate.sh && bash /var/www/html/migrate.sh'
-    volumes:
-      - ./www:/var/www/html
-      - ./migrate.sh:/var/www/html/migrate.sh
-    links:
-      - mariadb
-    depends_on:
-      - mariadb
-    networks:
-      - backend
-    environment:
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      DOMAIN_API: ${DOMAIN_API}
-    labels:
-      - 'traefik.enable=false'
-  mariadb:
-    image: mariadb:10.3
-    restart: 'always'
-    command: bash -c "chown -R mysql:mysql /var/log/mysql && exec /docker-entrypoint.sh mysqld --log-error=/var/log/mysql/err.log --general-log=1 --general-log-file=/var/log/mysql/general-log.log --character-set-server=utf8 --collation-server=utf8_general_ci"
-    volumes:
-      - ./mariadb:/var/lib/mysql
-      - ./logs/mysql:/var/log/mysql
-      - ./db/bcp.sql:/docker-entrypoint-initdb.d/dump.sql
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-    networks:
-      - backend
-    labels:
-      - 'traefik.enable=false'
+    webserver:
+        build:
+            context: ./docker/config/webserver
+        restart: 'always'
+        container_name: 'web'
+        ports:
+            - "8888:80"
+        volumes:
+            - ./app:/var/www/html
+            - ./docker/config/php/php.ini:/usr/local/etc/php/php.ini
+            - ./docker/config/webserver/vhost:/etc/apache2/sites-enabled
+            - ./docker/storage/logs/apache2:/var/log/apache2
+        links:
+            - mysql
+        depends_on:
+            - mysql
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    links:
-      - mariadb:db
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-    depends_on:
-      - mariadb
-    networks:
-      - frontend
-      - backend
-    volumes:
-      - /sessions
-    labels:
-      - 'traefik.backend=new_phpmyadmin'
-      - 'traefik.frontend.rule=Host:${DOMAIN};PathPrefixStrip:/phpmyadmin/'
-      - 'traefik.docker.network=frontend'
-      - 'traefik.port=80'
-#  portainer:
-#    image: portainer/portainer
-#    command: -H unix:///var/run/docker.sock
-#    volumes:
-#      - /var/run/docker.sock:/var/run/docker.sock
-#      - portainer_data:/data
-#    networks:
-#      - backend
-#      - frontend
-#    labels:
-#      - 'traefik.backend=portainer'
-#      - 'traefik.frontend.rule=Host:${DOMAIN};PathPrefixStrip:/panel/'
-#      - 'traefik.docker.network=frontend'
-#      - 'traefik.port=9000'
+    mysql:
+        build: ./docker/config/mysql
+        container_name: 'mysql'
+        restart: 'always'
+        hostname: 'mysql'
+        volumes:
+            - ./docker/storage/mysql:/var/lib/mysql
+            - ./docker/storage/logs/mysql:/var/log/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=baza
+            - MYSQL_USER=root
+            - MYSQL_PASSWORD=root
+        ports:
+            - "3306:3306"
 
-volumes:
-  portainer_data:
-  sock:
-networks:
-  frontend:
-    external: true
-  backend:
-    external: false
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: 'phpmyadmin'
+        links:
+            - mysql
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: 3306
+        ports:
+            - '8080:80'
+        volumes:
+            - /sessions
