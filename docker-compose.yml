@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-    webserver:
+    baza_webserver:
         build:
             context: ./docker/config/webserver
         restart: 'always'
-        container_name: 'web'
+        container_name: 'baza_web'
         ports:
             - "8888:80"
         volumes:
@@ -14,15 +14,15 @@ services:
             - ./docker/config/webserver/vhost:/etc/apache2/sites-enabled
             - ./docker/storage/logs/apache2:/var/log/apache2
         links:
-            - mysql
+            - baza_mysql
         depends_on:
-            - mysql
+            - baza_mysql
 
-    mysql:
+    baza_mysql:
         build: ./docker/config/mysql
-        container_name: 'mysql'
+        container_name: 'baza_mysql'
         restart: 'always'
-        hostname: 'mysql'
+        hostname: 'baza_mysql'
         volumes:
             - ./docker/storage/mysql:/var/lib/mysql
             - ./docker/storage/logs/mysql:/var/log/mysql
@@ -34,11 +34,11 @@ services:
         ports:
             - "3306:3306"
 
-    phpmyadmin:
+    baza_phpmyadmin:
         image: phpmyadmin/phpmyadmin
-        container_name: 'phpmyadmin'
+        container_name: 'baza_phpmyadmin'
         links:
-            - mysql
+            - baza_mysql
         environment:
             PMA_HOST: mysql
             PMA_PORT: 3306

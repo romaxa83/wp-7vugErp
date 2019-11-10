@@ -1,14 +1,18 @@
 up: docker-up info
 down: docker-down
 
-init: docker-down docker-build permission docker-up composer-install migrate info
+init: docker-down create-dir-file docker-build permission docker-up composer-install migrate info
 
-cp-env:
-	cp app/.env.example app/.env
+create-dir-file:
+	mkdir -p docker/storage
+	sudo mkdir -p app/runtime/cache
+	cp app/config/params-local.dist app/config/params-local.php
+	cp app/config/db.dist app/config/db.php
 
 permission:
 	sudo chmod 777 -R docker/storage
 	sudo chmod 777 -R app/web/assets
+	sudo chmod 777 -R app/runtime
 
 docker-up:
 	docker-compose up -d
@@ -21,13 +25,13 @@ docker-build:
 	docker-compose build
 
 web-bash:
-	docker exec -it web bash
+	docker exec -it baza_web bash
 
 migrate:
-	docker-compose run --rm webserver php yii migrate/up --interactive=0
+	docker-compose run --rm baza_webserver php yii migrate/up --interactive=0
 
 composer-install:
-	docker-compose run --rm webserver php composer install
+	sudo docker-compose run --rm baza_webserver composer install
 
 info:
 	echo "app - http://localhost:8888"
